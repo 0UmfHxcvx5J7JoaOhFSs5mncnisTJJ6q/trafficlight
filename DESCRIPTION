@@ -1,0 +1,20 @@
+Package: trafficlight
+Type: Package
+Title: traffic light - Tools for data validation
+Version: 1.13.0
+Date: 2018-10-19
+Author: Markus Bonsch, Jan Philipp Dietrich
+Maintainer: Jan Philipp Dietrich <dietrich@pik-potsdam.de>
+Description: The package contains tools for data validation and aggregation of
+    validation results.
+Depends:
+    R(>= 2.10.0)
+Imports:
+    magclass,
+    ggplot2,
+    qualV
+License: LGPL-3
+Encoding: UTF-8
+LazyData: no
+RoxygenNote: 6.1.0
+ValidationKey: 20139990

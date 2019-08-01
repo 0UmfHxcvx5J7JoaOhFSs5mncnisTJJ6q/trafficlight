@@ -1,0 +1,6 @@
+green, yellow, check
+GeometricReliability, 1.1, 1.2,FALSE
+ModifiedStandardDeviationRatio, 1,3,FALSE
+RelativeDifference, 0.1, 0.3,TRUE
+MannKendall p, 0.1, 0.01,FALSE
+MannKendall m_annual, 0.005, 0.01,TRUE
