@@ -13,7 +13,7 @@
 #' @param ... Additional arguments provided to \code{\link{TLplot}}
 #' @return If \code{plot==TRUE}, a ggplot object. If \code{plot==FALSE}, a
 #' matrix with traffic light result (0 = red, 1 = yellow, 2 = green)
-#' @author Markus Bonsch, Jan Philipp Dietrich
+#' @author Markus Bonsch, Jan Philipp Dietrich, Benjamin Leon Bodirsky
 #' @seealso
 #' \code{\link{TLevaluate}},\code{\link{TLstatistics}},\code{\link{TLplot}}
 #' @examples
@@ -24,9 +24,11 @@
 #' 
 #' trafficlight(x[,,1], xc)
 #' trafficlight(x[,,1], xc, detailed=FALSE)
-#' 
+#' @importFrom magclass magpiesort
 #' @export
 trafficlight<-function(x, xc, plot=TRUE, ...){
+  x = magpiesort(x) ### unsorted objects cause errors.
+  xc = magpiesort(xc)
   #Calculate the Traffic Light indicators
   indicators <- TLstatistics(x=x, xc=xc)
   #Evaluate the thresholds

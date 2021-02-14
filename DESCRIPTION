@@ -1,8 +1,8 @@
 Package: trafficlight
 Type: Package
 Title: traffic light - Tools for data validation
-Version: 1.13.0
-Date: 2018-10-19
+Version: 1.13.1
+Date: 2021-02-14
 Author: Markus Bonsch, Jan Philipp Dietrich
 Maintainer: Jan Philipp Dietrich <dietrich@pik-potsdam.de>
 Description: The package contains tools for data validation and aggregation of
@@ -16,5 +16,4 @@ Imports:
 License: LGPL-3
 Encoding: UTF-8
 LazyData: no
-RoxygenNote: 6.1.0
-ValidationKey: 20139990
+RoxygenNote: 7.1.1
