@@ -1,9 +1,11 @@
 Package: trafficlight
 Type: Package
 Title: traffic light - Tools for data validation
-Version: 1.13.1
-Date: 2021-02-14
-Author: Markus Bonsch, Jan Philipp Dietrich
+Version: 1.15.0
+Date: 2023-09-12
+Authors@R: c(person("Jan Philipp", "Dietrich",
+                    email = "dietrich@pik-potsdam.de", role = c("aut","cre")),
+             person("Markus Bonsch", "Bonsch", role = c("aut")))
 Maintainer: Jan Philipp Dietrich <dietrich@pik-potsdam.de>
 Description: The package contains tools for data validation and aggregation of
     validation results.
@@ -16,4 +18,4 @@ Imports:
 License: LGPL-3
 Encoding: UTF-8
 LazyData: no
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.3
